@@ -9,16 +9,11 @@
     </head>
 
     <body style="margin: 0; overflow: hidden;">
-       <!-- <div> AAAA </div> -->
         <a-scene
             embedded
             loading-screen="enabled: true;"
             arjs="sourceType: webcam;  videoTexture: true; debugUIEnabled: true;" >       
-           <!--         
-            cursor='rayOrigin: mouse'
-            raycaster='near: 0; far: 50000' 
-            renderer='antialias: true; alpha: true'
--->
+   
                  
        
                 <a-image
@@ -26,7 +21,6 @@
                     look-at="[gps-camera]"
                     scale="1 1 1"
                     gps-entity-place="latitude: 40.664904 ; longitude: 16.532919; position:0 30 0"   
-                <!--      clicker -->
                 ></a-image>
 
  
@@ -44,11 +38,10 @@
             <a-camera 
                       gps-camera 
                       rotation-reader
-                   <!--     accelerationToMove: 1.0 -->
 
                       >
             
-            </a-camera> <!-- gps-camera ='simulateLatitude: 40.664836; simulateLongitude: 16.532982' -->
+            </a-camera> 
             
             
             
