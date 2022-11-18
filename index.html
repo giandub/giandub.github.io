@@ -8,8 +8,7 @@
         <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
     </head>
 
-    <body style="margin: 0; overflow: hidden;">
-        <div> addddddd</div>
+    <body style="margin: 0" >
         <a-scene
             embedded
             loading-screen="enabled: true;"
@@ -24,41 +23,16 @@
                 ></a-image>
             
             
-                <a-image
-                    src="asset.png"
-                    look-at="[gps-camera]"
-                    scale="1 1 1"
-                    gps-entity-place="latitude:     40.658906 ; longitude: 16.539012"
-                    position="0 0 0"   
-                ></a-image>
+                
             
             
-                <a-image
-                    src="asset.png"
-                    look-at="[gps-camera]"
-                    scale="1 1 1"
-                    gps-entity-place="latitude: 40.674114 ; longitude: 16.594237"
-                    position="0 0 0"   
-                ></a-image>
+                
             
             
 
-        <a-text 
-                value="This will always face the user." 
-                look-at="[gps-camera]"
-                scale="1 1 1" 
-                gps-entity-place="latitude: 40.664943; longitude:  16.532992;">
-         </a-text>
+        
 
 
-<a-camera
-          id='camera1' 
-          look-controls-enabled='false' 
-          arjs-look-controls='smoothingFactor: 0.1' 
-          gps-camera='gpsMinDistance: 1; alert: true;positionMinAccuracy: 100' 
-          rotation-reader>
-  </a-camera>
-            
             
             
             
